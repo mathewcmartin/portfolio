@@ -4,6 +4,7 @@
     <meta charset="utf-8">
     <script src="https://use.fontawesome.com/634baa27f4.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.8/handlebars.amd.js"></script>
     <title>Mathew C Martin ~ Portfolio</title>
   </head>
   <body>
@@ -35,13 +36,6 @@
 </html>
 
 <!--
-  [x]  As a developer, I want my site to use valid and semantic markup, so that employers will love me.
-
-  [x]  As the creator, I want the page to link to my social and GitHub pages, so that visitors can follow me, and I can build my audience.
-
-  [x]  As a developer, I want portfolio items displayed with a repeatable template, so that I can reuse it, and abstract out the details for individual projects.
-
-  [x]  As a developer, I want my CSS organized (think SMACSS) so that I can find my stylings swiftly.
 
 User Stories: Stretch Goals
 
@@ -62,4 +56,34 @@ Technical Requirements and Grading Rubric
 
   []  Your "Project" prototype should have a .toHtml() function that adds new data to the DOM.
   Refactor your CSS into a base, layout, and module structure where applicable.
+
+  Portfolio assignment for class 3
+
+Continue building and improving your portfolio site. Here's how you can leverage events:
+
+Adapt these stories as necessary to fit how you want to build your portfolio.
+User Stories: MVP
+
+  []  As the creator, I want the Home and About nav links to act   as tabs, so my story is revealed FAST. This means your links to NOT navigate to a new page. Instead, your "single page app" shows only the section related to the navigation tab that is selected. You can use 'data-' attributes to associate a content section with a particular tab. Then use jQuery so when the tab is clicked, you hide all the sections, then reveal the associated section only.
+
+  [] As a reader, I want the portfolio to use a nice color scheme, so that it stands out visually.
+
+Stretch Goals (not required):
+
+  []  As a reader, I want project descriptions truncated to the first paragraph so that I can easily scroll though the whole list.
+
+  []  As a reader, I want to click the "More" button so that I can expand the entire description.
+
+  []  As a reader, I want projects filterable by category so that I can review just the things that interest me.
+
+Technical Requirements and Grading Rubric
+
+  []  Use event delegation whenever appropriate.
+
+  []  Add click handlers to at leat one nav section.
+
+  []  Do as much work as you can with advanced selectors, rather than littering your markup with classes and ids.
+
+  [] When classes and IDs are needed, pick semantic names. There is to be no $('#content .content') nonsense!
+
 -->
