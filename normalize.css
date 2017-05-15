@@ -52,7 +52,17 @@ h1 {
 /* Grouping content
    ========================================================================== */
 
-/**
+/**<section id="projects">
+          <article class="project-template">
+            <h2 id="projectTitle"></h2>
+              <a id="projectUrl" href="#"></a>
+              <footer>
+                <p>Posted on <time
+                datetime="2001-05-15T19:00">May 15</time>.</p>
+                &copy; 2017 Mathew C. Martin
+              </footer>
+          </article>
+        </section>
  * Add the correct display in IE 9-.
  * 1. Add the correct display in IE.
  */

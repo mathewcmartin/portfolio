@@ -3,34 +3,18 @@ img {
   max-width: 100%;
 }
 
-body {
-  line-height: 1.5;
-  font-size: 100%;
-  color: #313131;
-}
-
 main {
   margin: auto;
   width: 90%;
 }
 
-hr {
-  margin: 1em;
-  width: 80%;
-}
-
 nav {
-  display: block;
+  /*display: block;*/
   background-color: #999;
 }
 
-.icon-menu {
-    font-size: 3em;
-    /*float: right;*/
-}
-
 .main-nav {
-  padding: .2em .2em .2em 2em;
+  padding: .5em .5em .5em 5em;
 }
 
 .main-nav ul {
@@ -39,7 +23,7 @@ nav {
 }
 
 .main-nav ul li {
-  display: block;
+  /*display: block;*/
   border-bottom: none;
 }
 
