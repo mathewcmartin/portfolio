@@ -1,34 +1,48 @@
+
+img {
+  max-width: 100%;
+}
+
+body {
+  line-height: 1.5;
+  font-size: 100%;
+  color: #313131;
+}
+
+main {
+  margin: auto;
+  width: 90%;
+}
+
+hr {
+  margin: 1em;
+  width: 80%;
+}
+
 nav {
-  display: inline-block;
+  display: block;
+  background-color: #999;
 }
 
-ul {
-
+.icon-menu {
+    font-size: 3em;
+    /*float: right;*/
 }
 
-li {
-
+.main-nav {
+  padding: .2em .2em .2em 2em;
 }
 
-#linkedinIcon {
-
-}
-
-#githubIcon {
-
-}
-
-#facebookIcon {
+.main-nav ul {
+  display: block;
 
 }
 
-#twitterIcon {
-
+.main-nav ul li {
+  display: block;
+  border-bottom: none;
 }
 
-#template {
-
-}
-#project-template {
-
+.main-nav ul li: hover a {
+  color: #29506D;
 }
