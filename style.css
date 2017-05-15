@@ -1,37 +1,56 @@
+
 nav {
   display: inline-block;
 }
+
 main {
   
 }
 
-ul {
+img {
+  max-width: 100%;
+}
+
+body {
+  line-height: 1.5;
+  font-size: 100%;
+  color: #313131;
+}
+
+main {
+  margin: auto;
+  width: 90%;
+}
+
+hr {
+  margin: 1em;
+  width: 80%;
+}
+
+nav {
+  display: block;
+  background-color: #999;
+}
+
+.icon-menu {
+    font-size: 3em;
+    /*float: right;*/
+}
+
+.main-nav {
+  padding: .2em .2em .2em 2em;
+}
+
+.main-nav ul {
+  display: block;
 
 }
 
-li {
-
+.main-nav ul li {
+  display: block;
+  border-bottom: none;
 }
 
-#linkedinIcon {
-
-}
-
-#githubIcon {
-
-}
-
-#facebookIcon {
-
-}
-
-#twitterIcon {
-
-}
-
-#template {
-
-}
-#project-template {
-
+.main-nav ul li: hover a {
+  color: #29506D;
 }
