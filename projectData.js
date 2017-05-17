@@ -1,7 +1,6 @@
 'use strict';
 
-var projectData = [
-  {
+var projectData = [ {
     name:        'Bus Mall',
     type:        'Website',
     organization:  'Code Fellows',
