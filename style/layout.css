@@ -1,0 +1,32 @@
+
+img {
+  max-width: 100%;
+}
+
+main {
+  margin: auto;
+  width: 90%;
+}
+
+nav {
+  /*display: block;*/
+  background-color: #999;
+}
+
+.main-nav {
+  padding: .5em .5em .5em 5em;
+}
+
+.main-nav ul {
+  display: block;
+
+}
+
+.main-nav ul li {
+  /*display: block;*/
+  border-bottom: none;
+}
+
+.main-nav ul li: hover a {
+  color: #29506D;
+}
