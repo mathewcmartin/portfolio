@@ -44,31 +44,56 @@ User Stories: MVP
 
 ##Technical Requirements and Grading Rubric
 
-  []  Use event delegation whenever appropriate.
+  [?]  Use event delegation whenever appropriate.
 
-  []  Add click handlers to at least one nav section.
+  [?]  Add click handlers to at least one nav section.
 
-  []  Do as much work as you can with advanced selectors, rather than littering your markup with classes and ids.
+  [x]  Do as much work as you can with advanced selectors, rather than littering your markup with classes and ids.
 
-  [] When classes and IDs are needed, pick semantic names. There is to be no $('#content .content') nonsense!
+  [x] When classes and IDs are needed, pick semantic names. There is to be no $('#content .content') nonsense!
 
 ##Use what you learned in the class 4 lecture to improve the structure of your Portfolio app codebase.
 
 ##User Stories: MVP
 
-  []  As a developer, I want to use Handlebars for my project template, so that I can include new projects more easily.
+  x]  As a developer, I want to use Handlebars for my project template, so that I can include new projects more easily.
 
-  []  As a developer, I want my CSS styles to follow SMACSS organization, so that I know where to look for creating and editing styles.
+  [x]  As a developer, I want my CSS styles to follow SMACSS organization, so that I know where to look for creating and editing styles.
 
 ##User Stories: Stretch Goal
 
-  []  As a visitor, I want the site to use great typography, so that I have an enjoyable reading experience.
+  [x]  As a visitor, I want the site to use great typography, so that I have an enjoyable reading experience.
 
-  []  Set up your h1, h2, h3 elements according to a type scale(another good type scale article).
+  [x]  Set up your h1, h2, h3 elements according to a type scale(another good type scale article).
     Include some good fonts, that work well together.
 
 ##Technical Requirements and Grading Rubric
 
-  []  Add Handlebars to your blogging system.
+  [x]  Add Handlebars to your blogging system.
 
 **Organize your CSS code according to SMACSS, with at least a file for base, layout, and modules.**
+
+##Portfolio assignment for class 8
+
+  [?] Pretty simple adaptation for today's portfolio assignment: Set it up to run from a server.js file as we did with the blog app in lab.
+
+##Your Portfolio for Class 10 - Functional Programming!
+  [] Scopes and closures and IIFE's, oh my! :grimacing:
+
+  [] Apply some functional programming concepts to your portfolio codebase.
+
+  [] Eliminate all for loops.
+
+  [] Use map where you are transforming one collection into another.
+
+  [] In at least one place, enclose the contents of a script file in an IIFE, that exports your high-level objects.
+
+  [] Refactor any parts of your app that could be more loosely coupled. Make smaller functions that can accept and expect the return values of other functions!
+
+  [] Think of a useful way to use reduce. Maybe you want to put some "fun facts stats" in your footer?
+
+##Technical Requirements
+
+  [] Use of at least one .map() method.
+  [] Use of at least one .reduce() method.
+  [] IIFE present on at least one .js file.
