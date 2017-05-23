@@ -56,7 +56,7 @@ User Stories: MVP
 
 ##User Stories: MVP
 
-  x]  As a developer, I want to use Handlebars for my project template, so that I can include new projects more easily.
+  [x]  As a developer, I want to use Handlebars for my project template, so that I can include new projects more easily.
 
   [x]  As a developer, I want my CSS styles to follow SMACSS organization, so that I know where to look for creating and editing styles.
 
