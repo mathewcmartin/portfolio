@@ -16,14 +16,13 @@ $('nav li').on('click', function() {
   $('#' + $menuIcons).fadeIn(10000);
 })
 
-// $(el).toggleClass(className);
-
+$('icon-menu').toggleClass('icon-menu');
 // Add templating jQuery code
 
 Project.prototype.toHtml = function() {
   var template = $('#project-template').html();
   var templateQueue = Handlebars.compile(template);
-  //code not needed becuase you don't currently use days ago
+
   return templateQueue(this);
 };
 
