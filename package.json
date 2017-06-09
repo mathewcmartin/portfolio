@@ -21,7 +21,8 @@
   },
   "homepage": "https://github.com/mathewcmartin/portfolio#readme",
   "dependencies": {
-    "express": "^4.15.3"
+    "express": "^4.15.3",
+    "pg": "^6.2.4"
   },
   "devDependencies": {}
 }
