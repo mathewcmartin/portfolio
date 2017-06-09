@@ -1,0 +1,31 @@
+
+[
+  {
+    "name":        "Bus Mall",
+    "type":        "Website",
+    "organization":  "Code Fellows",
+    "body":        "Bus Mall is a hypothetical website created to demonstrate my HTML, CSS and JavaScript coding skills.",
+    "reference":   "https://mathewcmartin.github.io/BusMall/"
+  },
+  {
+    "name":        "Cookie Stand",
+    "type":        "Website",
+    "organization":  "Code Fellows",
+    "body":        "Bus Mall is a hypothetical website created to demonstrate my HTML, CSS and JavaScript coding skills.",
+    "reference":  "https://mathewcmartin.github.io/cookie-stand/"
+  },
+  {
+    "name":        "About Me",
+    "type":        "Website",
+    "organization":  "Code Fellows",
+    "body":        "Bus Mall is a hypothetical website created to demonstrate my HTML, CSS and JavaScript coding skills.",
+    "reference":   "https://mathewcmartin.github.io/about_me/"
+  },
+  {
+    "name":         "Northshore Cloud",
+    "type":         "Website",
+    "organization":   "Kenmore Heritage Society",
+    "body":         "Northshore Cloud is an active website I created with WordPress and administer for the Kenmore Heritage Society, a non-profit 501c3.",
+    "reference":    "http://northshorecloud.org/"
+    }
+  ]
