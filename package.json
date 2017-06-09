@@ -19,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/mathewcmartin/portfolio/issues"
   },
-  "homepage": "https://github.com/mathewcmartin/portfolio#readme"
+  "homepage": "https://github.com/mathewcmartin/portfolio#readme",
+  "dependencies": {
+    "pg": "^6.2.4"
+  }
 }

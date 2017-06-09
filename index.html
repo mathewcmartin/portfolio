@@ -5,10 +5,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="normalize.css">
-    <link rel="stylesheet" href="styles.css">
-    <link rel="stylesheet" href="styles/base.css">
-    <link rel="stylesheet" href="styles/layout.css">
-    <link rel="stylesheet" href="styles/modules.css">
+    <link rel="stylesheet" href="./public/styles/style.css">
+    <link rel="stylesheet" href="./public/styles/base.css">
+    <link rel="stylesheet" href="./public/styles/layout.css">
+    <link rel="stylesheet" href="./public/styles/module.css">
     <script id="project-template" type="text/x-handlebars-template">
       <h1>{{name}}</h1>
       <p>{{type}}</p>
@@ -44,11 +44,23 @@
               </footer>
           </article>
         </section>
+        <section>
+          <div id="w">
+            <h3>Simple Github API Webapp</h3>
+              <p>Enter a single Github username below and click the button to display profile info via JSON.</p>
+
+              <input type="text" name="ghusername" id="ghusername" placeholder="Github username...">
+
+              <a href="#" id="ghsubmitbtn">Pull User Data</a>
+              <div id="ghapidata" class="clearfix"></div>
+          </div>
+        </section>
+      </main>
     <script src="https://use.fontawesome.com/634baa27f4.js"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.4/handlebars.js"></script>
-    <script src="projectData.js"></script>
-    <script src="portfolio.js"></script>
+    <script src="projectData.json"></script>
+    <script src="./public/scripts/portfolio.js"></script>
   </body>
-  
+
 </html>
