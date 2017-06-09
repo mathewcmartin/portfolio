@@ -1,5 +1,5 @@
 {
-  "name": "folio",
+  "name": "portfolio",
   "version": "1.0.0",
   "description": "MCM-Portfolio",
   "main": "portfolio.js",
@@ -19,5 +19,9 @@
   "bugs": {
     "url": "https://github.com/mathewcmartin/portfolio/issues"
   },
-  "homepage": "https://github.com/mathewcmartin/portfolio#readme"
+  "homepage": "https://github.com/mathewcmartin/portfolio#readme",
+  "dependencies": {
+    "express": "^4.15.3"
+  },
+  "devDependencies": {}
 }
